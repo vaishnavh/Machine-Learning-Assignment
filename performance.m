@@ -1,5 +1,6 @@
 function [errors, accuracy, precision, recall, f_measure] = performance(test_labels, class_prediction, types)
 %Prints the performance measure of a given test and predicted labels
+%function [errors, accuracy, precision, recall, f_measure] = performance(test_labels, class_prediction, types)
 dimension = size(types)
 precision = zeros(dimension)
 recall = zeros(dimension)
